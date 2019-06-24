@@ -2,10 +2,12 @@
 
 ## TL;DR
 
+##On MAC works on Python 2.7  
 ```
-$ virtualenv ~/path/to/my_virtualenv   # <-- This is a path of your choosing.
+$ pip install virtualenv
+$ virtualenv -p /usr/bin/python2.7 ~/path/to/my_virtualenv # <-- This is a path of your choosing.
 $ source ~/path/to/my_virtualenv/bin/activate
-(my_virtualenv) $ pip install git+git://github.mtv.cloudera.com/dknupp/impala-shell.git
+(my_virtualenv) $ pip install git+git://github.com/raamsy/impala-shell.git
 (my_virtualenv) $ impala-shell -i my_impalad.foo.cloudera.com
 ```
 
