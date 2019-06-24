@@ -2,7 +2,7 @@
 
 ## TL;DR
 
-##On MAC works on Python 2.7  
+### On MAC works on Python 2.7  
 ```
 $ pip install virtualenv
 $ virtualenv -p /usr/bin/python2.7 ~/path/to/my_virtualenv # <-- This is a path of your choosing.
